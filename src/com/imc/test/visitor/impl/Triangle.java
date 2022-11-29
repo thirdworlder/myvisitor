@@ -1,0 +1,36 @@
+package src.com.imc.test.visitor.impl;
+
+import src.com.imc.test.visitor.IAreaVisitor;
+import src.com.imc.test.visitor.IShape;
+
+public class Triangle implements IShape {
+
+    private final double base;
+    private final double height;
+
+    public Triangle(double base, double height) {
+        this.base = base;
+        this.height = height;
+    }
+
+    public double getBase() {
+        return base;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    @Override
+    public double accept(IAreaVisitor visitor) {
+        return visitor.visit(this);
+    }
+
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "base=" + base +
+                ", height=" + height +
+                '}';
+    }
+}
