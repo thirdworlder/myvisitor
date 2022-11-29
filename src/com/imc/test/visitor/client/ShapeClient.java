@@ -10,8 +10,8 @@ import src.com.imc.test.visitor.impl.Triangle;
 public class ShapeClient {
     public static void main(String[] args) {
         IShape[] shapes = new IShape[]{
-                new Circle(20),
-                new Rectangle(100, 50),
+                new Circle(7),
+                new Rectangle(5, 2),
                 new Triangle(10, 5)
         };
 
