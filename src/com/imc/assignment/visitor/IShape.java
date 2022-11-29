@@ -1,4 +1,4 @@
-package src.com.imc.test.visitor;
+package src.com.imc.assignment.visitor;
 
 public interface IShape {
     double accept(IAreaVisitor visitor);

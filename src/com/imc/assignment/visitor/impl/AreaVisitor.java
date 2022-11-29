@@ -1,6 +1,6 @@
-package src.com.imc.test.visitor.impl;
+package src.com.imc.assignment.visitor.impl;
 
-import src.com.imc.test.visitor.IAreaVisitor;
+import src.com.imc.assignment.visitor.IAreaVisitor;
 
 public class AreaVisitor implements IAreaVisitor {
     @Override

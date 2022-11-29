@@ -1,11 +1,11 @@
-package src.com.imc.test.visitor.client;
+package src.com.imc.assignment.visitor.client;
 
-import src.com.imc.test.visitor.IAreaVisitor;
-import src.com.imc.test.visitor.IShape;
-import src.com.imc.test.visitor.impl.AreaVisitor;
-import src.com.imc.test.visitor.impl.Circle;
-import src.com.imc.test.visitor.impl.Rectangle;
-import src.com.imc.test.visitor.impl.Triangle;
+import src.com.imc.assignment.visitor.IShape;
+import src.com.imc.assignment.visitor.impl.Rectangle;
+import src.com.imc.assignment.visitor.impl.Triangle;
+import src.com.imc.assignment.visitor.IAreaVisitor;
+import src.com.imc.assignment.visitor.impl.AreaVisitor;
+import src.com.imc.assignment.visitor.impl.Circle;
 
 public class ShapeClient {
     public static void main(String[] args) {

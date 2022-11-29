@@ -1,12 +1,12 @@
-package test.com.imc.test.visitor;
+package test.com.imc.assignment.visitor;
 
 import org.junit.Before;
 import org.junit.Test;
-import src.com.imc.test.visitor.IAreaVisitor;
-import src.com.imc.test.visitor.impl.AreaVisitor;
-import src.com.imc.test.visitor.impl.Circle;
-import src.com.imc.test.visitor.impl.Rectangle;
-import src.com.imc.test.visitor.impl.Triangle;
+import src.com.imc.assignment.visitor.IAreaVisitor;
+import src.com.imc.assignment.visitor.impl.AreaVisitor;
+import src.com.imc.assignment.visitor.impl.Circle;
+import src.com.imc.assignment.visitor.impl.Rectangle;
+import src.com.imc.assignment.visitor.impl.Triangle;
 
 import static org.junit.Assert.assertEquals;
 
