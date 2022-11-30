@@ -1,8 +1,8 @@
-package src.com.imc.assignment.visitor;
+package com.imc.assignment.visitor;
 
-import src.com.imc.assignment.visitor.impl.Circle;
-import src.com.imc.assignment.visitor.impl.Rectangle;
-import src.com.imc.assignment.visitor.impl.Triangle;
+import com.imc.assignment.visitor.impl.Circle;
+import com.imc.assignment.visitor.impl.Rectangle;
+import com.imc.assignment.visitor.impl.Triangle;
 
 
 public interface IAreaVisitor {

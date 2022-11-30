@@ -1,7 +1,7 @@
-package src.com.imc.assignment.visitor.impl;
+package com.imc.assignment.visitor.impl;
 
-import src.com.imc.assignment.visitor.IAreaVisitor;
-import src.com.imc.assignment.visitor.IShape;
+import com.imc.assignment.visitor.IAreaVisitor;
+import com.imc.assignment.visitor.IShape;
 
 public class Rectangle implements IShape {
 
